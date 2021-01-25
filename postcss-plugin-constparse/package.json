@@ -1,0 +1,39 @@
+{
+  "_from": "postcss-plugin-constparse@2.2.13",
+  "_id": "postcss-plugin-constparse@2.2.13",
+  "_inBundle": false,
+  "_integrity": "sha1-x58biva/v06+jMzxT5uXXI1aMhc=",
+  "_location": "/postcss-plugin-constparse",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "postcss-plugin-constparse@2.2.13",
+    "name": "postcss-plugin-constparse",
+    "escapedName": "postcss-plugin-constparse",
+    "rawSpec": "2.2.13",
+    "saveSpec": null,
+    "fetchSpec": "2.2.13"
+  },
+  "_requiredBy": [
+    "/@tarojs/webpack-runner"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/postcss-plugin-constparse/download/postcss-plugin-constparse-2.2.13.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fpostcss-plugin-constparse%2Fdownload%2Fpostcss-plugin-constparse-2.2.13.tgz",
+  "_shasum": "c79f1b8af6bfbf4ebe8cccf14f9b975c8d5a3217",
+  "_spec": "postcss-plugin-constparse@2.2.13",
+  "_where": "E:\\demo文件\\8.5\\iconmall-drp-h5\\node_modules\\@tarojs\\webpack-runner",
+  "author": {
+    "name": "Simba"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "postcss": "^6.0.22"
+  },
+  "deprecated": false,
+  "description": "parse constants defined in config",
+  "gitHead": "a86641215655a405b3b3f61996a488b4e649271a",
+  "license": "MIT",
+  "main": "index.js",
+  "name": "postcss-plugin-constparse",
+  "version": "2.2.13"
+}

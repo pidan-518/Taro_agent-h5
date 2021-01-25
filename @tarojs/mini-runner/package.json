@@ -1,0 +1,129 @@
+{
+  "_args": [
+    [
+      "@tarojs/mini-runner@2.2.6",
+      "C:\\Users\\。\\Desktop\\h5\\iconmall-drp-h5"
+    ]
+  ],
+  "_development": true,
+  "_from": "@tarojs/mini-runner@2.2.6",
+  "_id": "@tarojs/mini-runner@2.2.6",
+  "_inBundle": false,
+  "_integrity": "sha1-iR/a0vDv3kLLHYjZt1y8eI+5QqE=",
+  "_location": "/@tarojs/mini-runner",
+  "_phantomChildren": {
+    "path-parse": "1.0.6"
+  },
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@tarojs/mini-runner@2.2.6",
+    "name": "@tarojs/mini-runner",
+    "escapedName": "@tarojs%2fmini-runner",
+    "scope": "@tarojs",
+    "rawSpec": "2.2.6",
+    "saveSpec": null,
+    "fetchSpec": "2.2.6"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/@tarojs/mini-runner/download/@tarojs/mini-runner-2.2.6.tgz?cache=0&sync_timestamp=1596177689473&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40tarojs%2Fmini-runner%2Fdownload%2F%40tarojs%2Fmini-runner-2.2.6.tgz",
+  "_spec": "2.2.6",
+  "_where": "C:\\Users\\。\\Desktop\\h5\\iconmall-drp-h5",
+  "author": {
+    "name": "luckyadam"
+  },
+  "bugs": {
+    "url": "https://github.com/NervJS/taro/issues"
+  },
+  "dependencies": {
+    "@tarojs/helper": "^2.2.6",
+    "@tarojs/runner-utils": "^2.2.6",
+    "@tarojs/taro": "^2.2.6",
+    "@tarojs/transformer-wx": "^2.2.6",
+    "babel-core": "^6.26.3",
+    "babel-generator": "^6.26.1",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-danger-remove-unused-import": "^1.1.2",
+    "babel-plugin-preval": "1.6.2",
+    "babel-plugin-transform-define": "^1.3.0",
+    "babel-traverse": "^6.26.0",
+    "babel-types": "^6.26.0",
+    "better-babel-generator": "^6.26.1",
+    "copy-webpack-plugin": "^5.0.3",
+    "css": "2.2.4",
+    "css-loader": "^3.0.0",
+    "css-what": "3.2.0",
+    "csso-webpack-plugin": "^2.0.0-beta.1",
+    "file-loader": "^4.0.0",
+    "fs-extra": "^8.0.1",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "loader-utils": "^1.2.3",
+    "lodash": "^4.17.11",
+    "mini-css-extract-plugin": "^0.7.0",
+    "node-sass": "^4.12.0",
+    "ora": "^3.4.0",
+    "postcss-import": "12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-pxtransform": "^2.2.6",
+    "postcss-url": "^8.0.0",
+    "request": "^2.88.0",
+    "resolve": "^2.0.0-next.0",
+    "sass-loader": "^7.1.0",
+    "sax": "^1.2.4",
+    "scss-bundle": "^2.5.1",
+    "stylus": "0.54.7",
+    "stylus-loader": "^3.0.2",
+    "tapable": "1.1.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "url-loader": "^2.0.0",
+    "webpack": "4.41.6",
+    "webpack-chain": "4.9.0",
+    "webpack-format-messages": "^2.0.5"
+  },
+  "description": "Mini app runner for taro",
+  "devDependencies": {
+    "@types/babel-core": "^6.25.6",
+    "@types/babel-generator": "^6.25.3",
+    "@types/babel-traverse": "^6.25.5",
+    "@types/babel-types": "^7.0.7",
+    "@types/loader-utils": "^1.1.3",
+    "@types/lodash": "^4.14.126",
+    "@types/node": "^12.0.0",
+    "@types/tapable": "1.0.5",
+    "@types/webpack": "^4.4.31",
+    "jest": "^24.8.0",
+    "npm-run-all": "^4.1.5",
+    "ts-jest": "^24.0.2",
+    "typescript": "^3.4.5"
+  },
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "homepage": "https://github.com/NervJS/taro#readme",
+  "keywords": [
+    "taro"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@tarojs/mini-runner",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NervJS/taro.git"
+  },
+  "scripts": {
+    "build": "run-s clean prod",
+    "clean": "rimraf dist",
+    "dev": "tsc -w",
+    "lint": "tslint src/**/*.ts --fix",
+    "lint:typecheck": "tslint -p tsconfig.json src/**/*.ts --fix",
+    "prepack": "npm run build",
+    "prod": "tsc",
+    "test": "jest",
+    "test:dev": "jest --watch"
+  },
+  "version": "2.2.6"
+}

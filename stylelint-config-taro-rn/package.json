@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      "stylelint-config-taro-rn@2.2.6",
+      "C:\\Users\\。\\Desktop\\h5\\iconmall-drp-h5"
+    ]
+  ],
+  "_development": true,
+  "_from": "stylelint-config-taro-rn@2.2.6",
+  "_id": "stylelint-config-taro-rn@2.2.6",
+  "_inBundle": false,
+  "_integrity": "sha1-Ldt88kZXrNUXNVJoAuEY+zLorp4=",
+  "_location": "/stylelint-config-taro-rn",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "stylelint-config-taro-rn@2.2.6",
+    "name": "stylelint-config-taro-rn",
+    "escapedName": "stylelint-config-taro-rn",
+    "rawSpec": "2.2.6",
+    "saveSpec": null,
+    "fetchSpec": "2.2.6"
+  },
+  "_requiredBy": [
+    "#DEV:/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/stylelint-config-taro-rn/download/stylelint-config-taro-rn-2.2.6.tgz?cache=0&sync_timestamp=1596177671134&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fstylelint-config-taro-rn%2Fdownload%2Fstylelint-config-taro-rn-2.2.6.tgz",
+  "_spec": "2.2.6",
+  "_where": "C:\\Users\\。\\Desktop\\h5\\iconmall-drp-h5",
+  "author": {
+    "name": "O2Team"
+  },
+  "bugs": {
+    "url": "https://github.com/NervJS/taro/issues"
+  },
+  "description": "Shareable stylelint config for React Native CSS modules",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "npmpub": "^4.1.0",
+    "stylelint": "9.3.0",
+    "stylelint-taro-rn": "^2.2.6"
+  },
+  "files": [
+    "index.js",
+    "CHANGELOG.md",
+    "README.md"
+  ],
+  "homepage": "https://github.com/NervJS/taro#readme",
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "react-native",
+    "css-modules"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "stylelint-config-taro-rn",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NervJS/taro.git"
+  },
+  "scripts": {
+    "release": "npmpub",
+    "test": "jest"
+  },
+  "version": "2.2.6"
+}

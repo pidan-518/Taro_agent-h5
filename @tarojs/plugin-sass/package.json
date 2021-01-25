@@ -1,0 +1,96 @@
+{
+  "_from": "@tarojs/plugin-sass",
+  "_id": "@tarojs/plugin-sass@2.2.10",
+  "_inBundle": false,
+  "_integrity": "sha1-tkK58UjqJqGTOms4cNDKIVSmjw4=",
+  "_location": "/@tarojs/plugin-sass",
+  "_phantomChildren": {
+    "@types/json-schema": "7.0.5",
+    "ajv": "6.12.3",
+    "ajv-keywords": "3.5.2",
+    "big.js": "5.2.2",
+    "camelcase": "5.3.1",
+    "clone-deep": "4.0.1",
+    "color-convert": "1.9.3",
+    "compose-function": "3.0.3",
+    "convert-source-map": "1.7.0",
+    "es6-iterator": "2.0.3",
+    "escape-string-regexp": "1.0.5",
+    "has-flag": "3.0.0",
+    "minimist": "1.2.5",
+    "neo-async": "2.6.2",
+    "regex-parser": "2.2.10",
+    "rework": "1.0.1",
+    "rework-visit": "1.0.0",
+    "scss-bundle": "3.1.2",
+    "util": "0.10.3"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "@tarojs/plugin-sass",
+    "name": "@tarojs/plugin-sass",
+    "escapedName": "@tarojs%2fplugin-sass",
+    "scope": "@tarojs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/@tarojs/plugin-sass/download/@tarojs/plugin-sass-2.2.10.tgz?cache=0&sync_timestamp=1596177632637&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40tarojs%2Fplugin-sass%2Fdownload%2F%40tarojs%2Fplugin-sass-2.2.10.tgz",
+  "_shasum": "b642b9f148ea26a1933a6b3870d0ca2154a68f0e",
+  "_spec": "@tarojs/plugin-sass",
+  "_where": "E:\\demo文件\\8.5\\iconmall-drp-h5",
+  "author": {
+    "name": "luckyadam"
+  },
+  "bugs": {
+    "url": "https://github.com/NervJS/taro/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@tarojs/runner-utils": "^2.2.10",
+    "@tarojs/service": "^2.2.10",
+    "node-sass": "4.14.1",
+    "resolve-url-loader": "3.1.1",
+    "sass-loader": "8.0.2"
+  },
+  "deprecated": false,
+  "description": "Taro webpack sass config plugin",
+  "devDependencies": {
+    "@types/node": "^14.0.5",
+    "jest": "^26.0.1",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.3"
+  },
+  "files": [
+    "src",
+    "dist",
+    "index.js",
+    "package.json"
+  ],
+  "homepage": "https://github.com/NervJS/taro#readme",
+  "keywords": [
+    "taro"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@tarojs/plugin-sass",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NervJS/taro.git"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run prod",
+    "clean": "rimraf dist",
+    "dev": "tsc -w",
+    "prod": "tsc",
+    "test": "jest",
+    "test:dev": "jest --watch"
+  },
+  "version": "2.2.10"
+}

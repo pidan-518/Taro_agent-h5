@@ -1,0 +1,43 @@
+{
+  "_args": [
+    [
+      "@tarojs/components-qa@2.2.6",
+      "C:\\Users\\。\\Desktop\\h5\\iconmall-drp-h5"
+    ]
+  ],
+  "_from": "@tarojs/components-qa@2.2.6",
+  "_id": "@tarojs/components-qa@2.2.6",
+  "_inBundle": false,
+  "_integrity": "sha1-6v3IqZS5UiaBTJC0xSEyifzmwjw=",
+  "_location": "/@tarojs/components-qa",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@tarojs/components-qa@2.2.6",
+    "name": "@tarojs/components-qa",
+    "escapedName": "@tarojs%2fcomponents-qa",
+    "scope": "@tarojs",
+    "rawSpec": "2.2.6",
+    "saveSpec": null,
+    "fetchSpec": "2.2.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/@tarojs/components-qa/download/@tarojs/components-qa-2.2.6.tgz?cache=0&sync_timestamp=1596178260091&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40tarojs%2Fcomponents-qa%2Fdownload%2F%40tarojs%2Fcomponents-qa-2.2.6.tgz",
+  "_spec": "2.2.6",
+  "_where": "C:\\Users\\。\\Desktop\\h5\\iconmall-drp-h5",
+  "author": {
+    "name": "O2Team"
+  },
+  "description": "多端解决方案基础组件（快应用）",
+  "files": [
+    "src",
+    "index.js"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "name": "@tarojs/components-qa",
+  "version": "2.2.6"
+}

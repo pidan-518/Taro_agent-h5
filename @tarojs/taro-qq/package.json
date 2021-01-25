@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      "@tarojs/taro-qq@2.2.6",
+      "C:\\Users\\。\\Desktop\\h5\\iconmall-drp-h5"
+    ]
+  ],
+  "_from": "@tarojs/taro-qq@2.2.6",
+  "_id": "@tarojs/taro-qq@2.2.6",
+  "_inBundle": false,
+  "_integrity": "sha1-k0vNbnxNVERyoR+YBKcjLB71/xU=",
+  "_location": "/@tarojs/taro-qq",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@tarojs/taro-qq@2.2.6",
+    "name": "@tarojs/taro-qq",
+    "escapedName": "@tarojs%2ftaro-qq",
+    "scope": "@tarojs",
+    "rawSpec": "2.2.6",
+    "saveSpec": null,
+    "fetchSpec": "2.2.6"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/@tarojs/taro-qq/download/@tarojs/taro-qq-2.2.6.tgz?cache=0&sync_timestamp=1596178267186&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40tarojs%2Ftaro-qq%2Fdownload%2F%40tarojs%2Ftaro-qq-2.2.6.tgz",
+  "_spec": "2.2.6",
+  "_where": "C:\\Users\\。\\Desktop\\h5\\iconmall-drp-h5",
+  "author": {
+    "name": "O2Team"
+  },
+  "bugs": {
+    "url": "https://github.com/NervJS/taro/issues"
+  },
+  "dependencies": {
+    "@tarojs/taro": "^2.2.6",
+    "@tarojs/utils": "^2.2.6",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.1"
+  },
+  "description": "Taro qq framework",
+  "files": [
+    "dist",
+    "src",
+    "index.js",
+    "package.json"
+  ],
+  "homepage": "https://github.com/NervJS/taro#readme",
+  "keywords": [
+    "taro"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "@tarojs/taro-qq",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NervJS/taro.git"
+  },
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "rollup -c rollup.config.js -w"
+  },
+  "version": "2.2.6"
+}
